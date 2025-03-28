@@ -137,3 +137,14 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+/* Remove fundo, bordas e sombras das imagens */
+img {
+    background: none; /* Remove qualquer fundo */
+    box-shadow: none; /* Remove sombras */
+    border: none; /* Remove bordas */
+}
+
+/* Ajusta imagens arredondadas */
+.rounded-pill {
+    border-radius: 50%; /* Garante que as imagens arredondadas fiquem circulares */
+}
